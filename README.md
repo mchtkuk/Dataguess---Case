@@ -5,7 +5,7 @@ Task 1 - 7
 
 ## Proje Kurulumu
 
-1- final-project dosyasına sağ tıklayıp farklı bir terminalde çalıştırın.
+1- dataguess-case-frontend dosyasına sağ tıklayıp farklı bir terminalde çalıştırın.
 2- Açılan terminalde npm install yazarak dependenciesleri yükleyin.
 3- Dependenciesler yüklendikten sonra npm run start yazarak json server ile vite'ı çalıştırabilirsiniz.
 
