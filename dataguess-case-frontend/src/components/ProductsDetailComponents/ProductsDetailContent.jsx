@@ -45,13 +45,13 @@ export const ProductDetail = ({ productId }) => {
   ];
 
   const addToUserCart = (userId, productId, cart) => {
-    // Fetch the selected product from the database based on the productId
+
     fetch(`http://localhost:3000/products?id=${productId}`)
       .then((response) => response.json())
       .then((productData) => {
         const product = productData[0];
   
-        // Check if the product is already in the user's cart
+     
         const existingProductIndex = cart.cart.findIndex(
           (item) => item.id === Number(productId)
         );

@@ -20,7 +20,7 @@ const NavbarComponent = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const currentUser = useSelector((state) => state.user.currentUser);
-
+  
   useEffect(() => {
     const storedUser = localStorage.getItem("loggedInUser");
     if (storedUser) {
@@ -35,6 +35,7 @@ const NavbarComponent = () => {
   const handleSearchClick = () => {
     setShowSearch((prevState) => !prevState);
   };
+
 
   const submitSearch = (e) => {
     e.preventDefault();
