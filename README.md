@@ -1,7 +1,13 @@
 # Mid-Level Frontend Developer Assignment  - E-commerce Store with Advanced Filtering & Authentication and Role-based Permissions - Mücahit KUK
 
 
-Task 1 - 7
+Task 1 
+
+E-commerce Store with Advanced Filtering: Build an e-commerce store using React and Redux. Implement advanced filtering options such as multiple criteria, price ranges, sorting, and dynamic updates of product listings. Ensure smooth user experience and efficient data handling.
+
+Task 7
+
+Authentication and Role-based Permissions: Develop a user authentication system with role-based permissions using React, Redux, and a backend API. Users should have different roles (admin, user) with varying levels of access. Implement protected routes and ensure the appropriate UI is shown based on user roles.
 
 ## Proje Kurulumu
 
