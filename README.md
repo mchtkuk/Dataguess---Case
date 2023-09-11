@@ -5,11 +5,34 @@ Task 1 - 7
 
 ## Proje Kurulumu
 
-1- dataguess-case-frontend dosyasına sağ tıklayıp farklı bir terminalde çalıştırın.
+1- final-project dosyasına sağ tıklayıp farklı bir terminalde çalıştırın.
 2- Açılan terminalde npm install yazarak dependenciesleri yükleyin.
 3- Dependenciesler yüklendikten sonra npm run start yazarak json server ile vite'ı çalıştırabilirsiniz.
 
 (Eğer npm run start çalışmazsa 2 ayrı terminalde "npm run dev" ile "npm run server" ile de projeyi çalıştırabilirsiniz.)
+
+
+## Proje İçeriği
+
+
+- Bu proje, bir e-Commerce web sitesi için gerekli olan temel yapıyı oluşturmanızı amaçlamaktadır.
+- Proje, 3 ana bölümden oluşmaktadır. Bunlar:
+  - Kullanıcı Yönetimi
+  - Ürün Yönetimi
+  - Sepet Yönetimi
+- Proje, 3 farklı veritabanı tablosundan oluşmaktadır. Bunlar:
+  - Users
+  - Products
+  - Carts
+
+## Proje Bölümleri (ProtectedRoutes based on Admin and users)
+
+- Anasayfa
+- Ürünler Sayfası
+- Ürün Detay Sayfası
+- Sepet Sayfası
+- Kayıt Ol Sayfası
+- Giriş Yap Sayfası
 
 
 ## Admin Hesabı
